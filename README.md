@@ -58,7 +58,7 @@ To use DFM, please import the code `dfm.py`. The file `example.py` provides an e
 
 The structure of the input CSV should be, for example:
 | Merchant_id | x1 | x2 |
-| ----------- | ----------- | 
+| ----------- | ----------- | ----------- | 
 | mer001 | 100 | 100 |
 | mer001 | 105 | 80 |
 | mer002 | 50 | 40 |
@@ -79,3 +79,13 @@ The loading vectors outputted by DFM (the attribute `phis`, e.g., `worker.phis`)
 ```
 
 The GMM components outputeed by DFM are `gmm`, e.g., `worker.gmm`.
+
+
+File description
+
+| File | Description |
+| ----------- | ----------- | 
+| example.py | An example showing how to use DFM |
+| dfm.py | Codes of DFM |
+| eva.py | Evaluation of clustering performance  |
+| generate_mix.py | Generation of simulated dataset |
